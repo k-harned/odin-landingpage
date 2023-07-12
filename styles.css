@@ -1,18 +1,31 @@
+html {
+    box-sizing: border-box;
+  }
+
+* {
+    box-sizing: inherit;
+  }
+
 body {
     font-family: 'Roboto', sans-serif;
+    background-color: #1F2937;
+    width: 830px;
+    margin: 0 auto;
 }
 
 .header {
-    background-color: #1F2937;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px;
+    padding: 10px 0;
+    margin: 0;
+    /* border: 4px solid red; */
+    width: 
 }
 
 .logo {
     font-size: 24px;
-    font-weight: 700;
+    font-weight: 500;
     color: #F9FAF8;
 }
 
@@ -25,4 +38,48 @@ body {
     gap: 25px;
     font-size: 18px;
     font-weight: 300;
+}
+
+.sectionone {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+    margin-top: 75px;
+    /* border: 4px solid lime; */
+}
+
+.sectionone h1 {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 800;
+    margin: 0;
+}
+
+.sectionone p {
+    color: #E5E7EB;
+    font-size: 18px;
+    font-weight: 100;
+    margin: 0;
+}
+
+.sectionone img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.sectionone button {
+    margin-top: 10px;
+    padding: 5px 20px;
+    background-color: #3882F6;
+    color: #E5E7EB;
+    border: none;
+    border-radius: 5px;
+}
+
+.left, .right {
+    width: 400px;
+    flex-shrink: 0;
+
 }
