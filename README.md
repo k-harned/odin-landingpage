@@ -1,3 +1,3 @@
-Part of the Odin Project's Landing Page Assignments
+Part of the Odin Project's Landing Page Assignment
 
 CREDITS:

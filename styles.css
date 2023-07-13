@@ -4,23 +4,28 @@ html {
 
 * {
     box-sizing: inherit;
+    margin: 0;
+    padding: 0;
   }
 
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: #1F2937;
-    width: 830px;
     margin: 0 auto;
 }
+
+.bluebackground {
+    background-color: #1F2937;
+}
+
+/* Header / Hero */
 
 .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 10px 0;
-    margin: 0;
-    /* border: 4px solid red; */
-    width: 
+    margin: auto;
+    width: 900px;
 }
 
 .logo {
@@ -45,22 +50,21 @@ body {
     align-items: center;
     justify-content: center;
     gap: 32px;
-    margin-top: 75px;
-    /* border: 4px solid lime; */
+    margin: 75px auto 0;
+    width: 900px;
+    padding-bottom: 100px;
 }
 
 .sectionone h1 {
     color: #F9FAF8;
     font-size: 48px;
     font-weight: 800;
-    margin: 0;
 }
 
 .sectionone p {
     color: #E5E7EB;
     font-size: 18px;
     font-weight: 100;
-    margin: 0;
 }
 
 .sectionone img {
@@ -71,7 +75,7 @@ body {
 
 .sectionone button {
     margin-top: 10px;
-    padding: 5px 20px;
+    padding: 5px 28px;
     background-color: #3882F6;
     color: #E5E7EB;
     border: none;
@@ -79,7 +83,37 @@ body {
 }
 
 .left, .right {
-    width: 400px;
-    flex-shrink: 0;
+    width: 50%;
 
+}
+
+/* White Information Section */
+
+.sectiontwo {
+    width: 900px;
+    margin: auto;
+    text-align: center;
+}
+
+.sectiontwo h2 {
+    font-size: 36px;
+    margin: 30px;
+}
+
+.information {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    font-weight: 300;
+}
+
+.square {
+    width: 151px;
+}
+
+.information img {
+    height: 150px;
+    width: 150px;
+    border-radius: 20px;
 }
