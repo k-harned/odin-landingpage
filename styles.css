@@ -17,7 +17,7 @@ body {
     background-color: #1F2937;
 }
 
-/* Header / Hero */
+/* Section One Header and Hero */
 
 .header {
     display: flex;
@@ -87,7 +87,7 @@ body {
 
 }
 
-/* White Information Section */
+/* Section Two Information */
 
 .sectiontwo {
     width: 900px;
@@ -98,6 +98,8 @@ body {
 .sectiontwo h2 {
     font-size: 36px;
     margin: 30px;
+    font-weight: 800;
+    font-color: #1F2937;
 }
 
 .information {
@@ -106,6 +108,7 @@ body {
     align-items: center;
     gap: 50px;
     font-weight: 300;
+    margin-bottom: 100px;
 }
 
 .square {
@@ -117,3 +120,28 @@ body {
     width: 150px;
     border-radius: 20px;
 }
+
+/* Section Three Quote */
+
+.sectionthree {
+    background-color: #E5E7EB;
+    padding: 100px 0;
+}
+
+.quote {
+    color:#1F2937;
+    width: 800px;
+    margin: auto;
+}
+
+.quote em {
+    font-size: 36px;
+    font-weight: 100;
+}
+
+.quote p {
+    text-align: right;
+    font size: 9px;
+    font-weight: 700;
+}
+
