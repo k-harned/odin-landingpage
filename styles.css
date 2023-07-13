@@ -97,7 +97,7 @@ body {
 
 .sectiontwo h2 {
     font-size: 36px;
-    margin: 30px;
+    margin: 40px;
     font-weight: 800;
     font-color: #1F2937;
 }
@@ -130,7 +130,7 @@ body {
 
 .quote {
     color:#1F2937;
-    width: 800px;
+    width: 780px;
     margin: auto;
 }
 
@@ -141,7 +141,11 @@ body {
 
 .quote p {
     text-align: right;
-    font size: 9px;
+    font-size: 24px;
     font-weight: 700;
+}
+
+.calltoaction {
+    
 }
 
